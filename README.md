@@ -11,7 +11,8 @@ Imatge Docker amb entorn gràfic complet (XFCE) i Visual Studio Code instal·lat
 🔨 Build
 docker build -t developer-dev .
 
-▶️ Execució manual
+▶️ Execució manual:
+
 docker run -d --name developer -p 5901:5901 -p 2124:22 developer-dev
 
 🔑 Acceso SSH
